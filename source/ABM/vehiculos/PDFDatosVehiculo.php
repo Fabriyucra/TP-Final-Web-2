@@ -6,21 +6,18 @@ if (empty($_SESSION['usuario'])) header("Location: login.php");
 
 $db = new DBManager();
 //$dato = $_POST["id"];
-$empleados = $db->obtenerEmpleados(); 
+$vehiculos = $db->obtenerVehiculos();
 
 	class PDF extends FPDF
 	{
 	// Page header
 	function Header()
 	{
-	    // Logo
-	    //$this->Image('http://localhost/web2/web2/assets/imagenes/avatar.png',10,6,30);
-	    // Arial bold 15
 	    $this->SetFont('Arial','B',15);
 	    // Move to the right
 	    $this->Cell(50);
 	    // Title
-		$this->Cell(100,10,'EMPLEADOS DE LA EMPRESA',1,0,'C');
+		$this->Cell(100,10,'VEHICULOS DE LA EMPRESA',1,0,'C');
 	    // Line break
 	    $this->Ln(10);
 
@@ -45,21 +42,20 @@ $empleados = $db->obtenerEmpleados();
 	$pdf->SetFont('Times','',12);
 
 
-	foreach($empleados as $empleado):
+	foreach($vehiculos as $vehiculo):
 
-
+		
 		$pdf->Cell(0,0,'',1,1,'C');
 	    $pdf->Cell(0,8,'',0,1);
-	    $pdf->Cell(0,8,'NOMBRE : ' . $empleado["NOMBRE"],0,1);
-	    $pdf->Cell(0,8,'APELLIDO : ' . $empleado["APELLIDO"],0,1);
-	    $pdf->Cell(0,8,'DNI : ' . $empleado["DNI"],0,1);
-		$pdf->Cell(0,8,'SEXO : ' . $empleado["SEXO"],0,1);
-		$pdf->Cell(0,8,'FECHA DE NACIMIENTO : ' . $empleado["FECHA_NACIMIENTO"],0,1);
-		$pdf->Cell(0,8,'FECHA DE INGRESO : ' . $empleado["FECHA_INGRESO"],0,1);
-		$pdf->Cell(0,8,'SUELDO : $' . $empleado["SUELDO"],0,1);
-		$pdf->Cell(0,8,'ROL : ' . $empleado["ROL"],0,1);
+	    $pdf->Cell(0,8,'PATENTE : ' . $vehiculo["PATENTE"],0,1);
+	    $pdf->Cell(0,8,'MODELO : ' . $vehiculo["MODELO"],0,1);
+	    $pdf->Cell(0,8,'AÑO : ' . $vehiculo["ANO"],0,1);
+		$pdf->Cell(0,8,'MARCA: ' . $vehiculo["MARCA"],0,1);
+		$pdf->Cell(0,8,'NRO_CHASIS: ' . $vehiculo["NRO_CHASIS"],0,1);
+		$pdf->Cell(0,8,'NRO_MOTOR : ' . $vehiculo["NRO_MOTOR"],0,1);
+
 		$pdf->Ln();
-		If ($empleado <> end($empleados))
+		If ($vehiculo <> end($vehiculos))
 			$pdf->Cell(0,0,'',1,1,'C');
 
 	endforeach;

@@ -1,4 +1,11 @@
 $(function(){
+    function btnExportarPDFV() {
+        $('.btn-exportar-pdfV').on('click', function() {
+            var $self = $(this);
+            var IdEmpleado = $self.data('id');
+            window.open("source/ABM/vehiculos/PDFDatosVehiculo.php");
+        });
+    }
 
     $('.btn-modal-edit-vehiculo').on('click',function(){
         // gett all data
