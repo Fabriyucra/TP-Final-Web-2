@@ -24,7 +24,11 @@
 
 			</div>
 		</div>
-		<!-- Fin Filtro de busqueda -->
+        <p>
+            <i class="material-icons prefix">print</i>
+            <a class="btn-exportar-pdfV link" href="#">Exportar listado a PDF</a>
+        </p>
+
 		<div class="row">
 			<!-- boton nuevo vehiculo -->
 			<?php if($_SESSION['id_rol'] == 3  OR $_SESSION['id_rol'] == 4)  { ?> <!-- Botón de agregar Empleado sólo habilitado para rol Supervisor -->

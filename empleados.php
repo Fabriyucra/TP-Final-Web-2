@@ -34,7 +34,12 @@
 			<?php } ?>
 			<!-- Fin boton nuevo empleado -->
 			<div class="col-xs-12">
-				<!-- Lista Empleados --> 
+				<!-- Lista Empleados -->
+                <p>
+                    <i class="material-icons prefix">print</i>
+                    <a class="btn-exportar-pdf link" href="#">Exportar listado a PDF</a>
+                </p>
+
 				<ul class="list-group" id="lista-empleados"></ul>
 				<!-- Fin Lista Empleados -->
 			</div>

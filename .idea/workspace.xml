@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e2b9da-c1d2-4e4c-9ced-8b79d8e93a49" name="Default Changelist" comment="" />
+    <list default="true" id="e7e2b9da-c1d2-4e4c-9ced-8b79d8e93a49" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/Vehiculos.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/Vehiculos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/vehiculo.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/vehiculo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empleados.php" beforeDir="false" afterPath="$PROJECT_DIR$/empleados.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/PDFDatosEmpleado.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/PDFDatosEmpleado.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehiculos.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +35,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kOEUyxPnTPxghpaDnJCKiZ90vw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,7 +47,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/ABM/vehiculos" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -28,15 +57,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\web2" />
-      <recent name="C:\xampp\htdocs\web2\assets\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\web2" />
       <recent name="C:\xampp\htdocs\web2\source\views" />
       <recent name="C:\xampp\htdocs\web2\source\models" />
       <recent name="C:\xampp\htdocs\web2\source\lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\TP-Final-Web-2\source\ABM\vehiculos" />
+      <recent name="C:\xampp\htdocs\web2" />
+      <recent name="C:\xampp\htdocs\web2\assets\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,11 +89,25 @@
       <workItem from="1607398579685" duration="2430000" />
       <workItem from="1607467545875" duration="2441000" />
       <workItem from="1607470258933" duration="428000" />
+      <workItem from="1607480326525" duration="7445000" />
+      <workItem from="1607529444313" duration="5828000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="77" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605564715243">
@@ -74,23 +118,18 @@
       <screen x="0" y="0" width="1449" height="776" />
     </state>
     <state x="347" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1449.776@0.0.1449.776" timestamp="1605649099836" />
-    <state x="497" y="214" key="FileChooserDialogImpl" timestamp="1607468782649">
+    <state x="497" y="214" key="FileChooserDialogImpl" timestamp="1607529605378">
       <screen x="0" y="0" width="1449" height="776" />
     </state>
-    <state x="497" y="214" key="FileChooserDialogImpl/0.0.1449.776@0.0.1449.776" timestamp="1607468782649" />
-    <state x="694" y="132" width="575" height="534" key="find.popup" timestamp="1607470307662">
+    <state x="497" y="214" key="FileChooserDialogImpl/0.0.1449.776@0.0.1449.776" timestamp="1607529605378" />
+    <state x="694" y="132" width="575" height="534" key="find.popup" timestamp="1607538443831">
       <screen x="0" y="0" width="1449" height="776" />
     </state>
-    <state x="694" y="132" width="575" height="534" key="find.popup/0.0.1449.776@0.0.1449.776" timestamp="1607470307662" />
+    <state x="694" y="132" width="575" height="534" key="find.popup/0.0.1449.776@0.0.1449.776" timestamp="1607538443831" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/source/database/DBManager.php</url>
-          <line>19</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculoEditarEnFormulario.php</url>
           <line>13</line>
