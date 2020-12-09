@@ -2,8 +2,6 @@
 class ConfigGlobal {
 
 	public function ObtenerConfig() {
-
-
 			// Entorno Local
 			$entorno =  array(
 				"db" => array(

@@ -27,7 +27,7 @@ $vehiculos = $db->obtenerVehiculos();
 			</div>
 			<?php if($_SESSION['id_rol'] == 4) { ?>
 			<div class="media-right">
-				<a href="#!" data-id-eliminar="<?php echo $vehiculo["PATENTE"]; ?>" class="btn-baja-vehiculo btn btn-primary tooltipped" data-placement="right" title="Eliminar">
+				<a href="#!" data-id-eliminar="<?php echo $vehiculo["PATENTE"]; ?>" class="w3-margin-bottom btn-baja-vehiculo btn btn-primary tooltipped" data-placement="right" title="Eliminar">
 					<i class="material-icons">delete</i>
 				</a>
 				<!-- Editar -->
