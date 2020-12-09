@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.material-icons { font-size: 100% }
+
+body {
+    background: #f6f6f6;
+    color: #616161;
+    font: 16px/1.5 'Cabin', sans-serif;
+}
+.link:after {
+	content: "»";
+	position: relative;
+	transition: .2s;
+	left: 3px;
+}
+
+.link:hover:after {
+	left: 10px;
+}
+
+/*Bootstrap override*/
+.input-group-addon, .btn, .form-control { font-size: 16px }
+.close { font-size: 24px }
+/*fin Bootstrap override*/
+
+.avatar-perfil-usuario {
+	max-width: 200px;
+}
+
+#formularioListaFiltrada {
+	max-width: inherit;
+}
+
+/* Tarjetas index */
+/*
+.tarjetas .card-image img {
+	height: 250px;
+	width: 100%;
+}
+*/
+
+/* Login */
+h1.login {
+	font-size: 40px;
+}
+h2.login {
+	font-size: 22px;
+}
+.logo-camion {
+	width: 200px;
+}
+.form-login {
+	background: rgb(255, 255, 255);
+	border: 1px solid #E0E0E0;
+	border-bottom: 5px solid rgba(128, 128, 128, 0.15);
+	border-radius: 4px;	
+	padding: 10px 20px;
+}
+/* fin Login */
+
+
+#lista-empleados .media-left img, #lista-vehiculos .media-left img {
+	width: 64px;
+	height: auto
+}
+
+.navbar-global, body>footer {
+	color: #c0e6f9 !important;
+	background: #039be6;
+}
+.navbar-global .navbar-text, .navbar-global a, body>footer a { color: inherit !important }
+.navbar-global a:hover, .navbar-global a:focus, body>footer a:hover, body>footer a:focus { color: #fff !important }
+.footer-copyright {
+	background: #0793d7;
+	padding-top: 14px
+}
+
+/* Override de listas */
+.list-group .list-group-item.avatar .secondary-content {
+	top: 25px !important;
+}
+.btn-empleado-editar,
+.btn-viaje-editar {
+	right: 130px !important;
+}
+/* fin Override de listas */
+
+/* Medias */
+/* xs ( <= 767px) */
+@media (max-width: 767px) {
+	.list-group-item.avatar {
+		overflow: auto;
+		padding-left: 10px !important;
+		text-align: center;
+	}
+	.list-group .list-group-item.avatar .secondary-content {
+		float: none;
+		position: initial;
+
+	}
+}
+/*sm (>=768px)*/
+@media (min-width: 768px) {
+	.container {
+		max-width: 970px
+	}
+	body.pag-login>.container {
+		width: 750px
+	}
+}
+.fondo{
+	background-color: #2196F3;
+}
+/* fin Medias */
