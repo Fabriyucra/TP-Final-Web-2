@@ -2,7 +2,7 @@
 	session_start();
     include '../../database/DBManager.php';
     include '../../lib/phpqrcode/qrlib.php';
-    if (empty($_SESSION['usuario'])) header("Location: login.php");
+    if (empty($_SESSION['usuario'])) header("Location: inicio.php");
     $db = new DBManager();
 
     $idUsuario = $_POST["id"];

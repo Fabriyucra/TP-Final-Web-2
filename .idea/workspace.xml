@@ -21,9 +21,52 @@
   <component name="ChangeListManager">
     <list default="true" id="e7e2b9da-c1d2-4e4c-9ced-8b79d8e93a49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagenes/mantenimientos.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagenes/mantenimientos.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/imagenes/empleados.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagenes/empleados.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empleados.php" beforeDir="false" afterPath="$PROJECT_DIR$/empleados.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/inicio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mantenimientos.php" beforeDir="false" afterPath="$PROJECT_DIR$/mantenimientos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reportes.php" beforeDir="false" afterPath="$PROJECT_DIR$/reportes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salir.php" beforeDir="false" afterPath="$PROJECT_DIR$/salir.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seguimientos.php" beforeDir="false" afterPath="$PROJECT_DIR$/seguimientos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/PDFDatosEmpleado.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/PDFDatosEmpleado.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoEditarEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoEditarEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoNuevoEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoNuevoEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosLista.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosListaFiltrada.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosListaFiltrada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/datosEmpleado.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/datosEmpleado.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/editar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/nuevo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/baja.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/baja.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientoEditarEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientoEditarEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientoNuevoEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientoNuevoEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientosLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientosLista.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/consultarAlarmas.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/consultarAlarmas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/datosMantenimiento.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/datosMantenimiento.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/editar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/nuevo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/PDFDatosVehiculo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/PDFDatosVehiculo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/baja.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/baja.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculoEditarEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculoEditarEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculoNuevoEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculoNuevoEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosLista.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosListaFiltrada.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosListaFiltrada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/datosVehiculo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/datosVehiculo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/editar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/nuevo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/baja.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/baja.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeEditarEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeEditarEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeNuevoEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeNuevoEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/cargarViajesLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/cargarViajesLista.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/datosViaje.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/datosViaje.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/editar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/nuevo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/inc/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/inc/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/salir.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/salir.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/validarLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/validarLogin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/views/shared/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/views/shared/_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehiculos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viajes.php" beforeDir="false" afterPath="$PROJECT_DIR$/viajes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +132,8 @@
       <workItem from="1607467545875" duration="2441000" />
       <workItem from="1607470258933" duration="428000" />
       <workItem from="1607480326525" duration="7445000" />
-      <workItem from="1607529444313" duration="9901000" />
+      <workItem from="1607529444313" duration="11293000" />
+      <workItem from="1607573026612" duration="3482000" />
     </task>
     <servers />
   </component>

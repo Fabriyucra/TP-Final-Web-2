@@ -1,7 +1,7 @@
 <?php
     session_start();
     if (empty($_SESSION['logueado'])) {
-        header("Location: login.php");
+        header("Location: inicio.php");
     }
 ?>
 

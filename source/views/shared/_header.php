@@ -11,12 +11,11 @@
 		</div>
 		<div id="navbarContenido" class="collapse navbar-collapse">
 			<div class="w3-bar-item">
-				<i class="material-icons">perm_identity</i>
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
 				<strong>Bienvenido, <?php echo $_SESSION['nombre']; ?></strong>
 			</div>
-			<ul class=" w3-button w3-right">
-
-				<li><a href="Salir.php"><i class="material-icons">settings_power</i>Salir</a></li>
-			</ul>
+			<div class=" w3-button w3-right">
+                <a href="Salir.php"><i class="fa fa-power-off" aria-hidden="true"></i>Salir</a>
+			</div>
 		</div>
 	</div>

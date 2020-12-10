@@ -9,18 +9,7 @@ unset($_SESSION['logueado']);
 <?php if(isset($_GET['error'])) { ?>
     <script>alert('Su clave o contraseña es incorrecta o no existe el usuario')</script>
 <?php } ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>CD&U Logistica</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assert/css/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
 
-<body>
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
     <div class="w3-bar w3-white w3-wide w3-padding w3-card">
@@ -41,7 +30,7 @@ unset($_SESSION['logueado']);
                         <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
                         <img src="assets/imagenes/avatar.jpg" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
                     </div>
-
+                         <!--REGISTRO de usuario por rol-->
                     <form class="w3-container" action="source/validarLogin.php" method="post"">
                         <div class="w3-section">
                             <label><b>Username</b></label>
@@ -79,7 +68,7 @@ unset($_SESSION['logueado']);
 
     <!-- Project Section -->
     <div class="w3-container w3-padding-32" id="projects">
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Servicios</h3>
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"> <b> Servicios </b></h3>
     </div>
 
     <div class="w3-row-padding">
@@ -138,7 +127,7 @@ unset($_SESSION['logueado']);
 
     <!-- About Section -->
     <div class="w3-container w3-padding-32" id="about">
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"> <b> About </b></h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
             minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -184,7 +173,7 @@ unset($_SESSION['logueado']);
 
     <!-- Contact Section -->
     <div class="w3-container w3-padding-32" id="contact">
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"> <b> Contact</b></h3>
         <p>Lets get in touch and talk about your next project.</p>
         <form action="/action_page.php" target="_blank">
             <input class="w3-input w3-border" type="text" placeholder="Name" required="" name="Name">
@@ -204,12 +193,8 @@ unset($_SESSION['logueado']);
 
     <!-- End page content -->
 </div>
-<?php require_once('source/inc/scripts.php'); ?>
-
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-16">
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
-
+<?php require_once('source/inc/scripts.php');
+require_once('source/views/shared/_footer.php');
+?>
 
 </body></html>
