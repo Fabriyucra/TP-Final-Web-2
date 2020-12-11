@@ -25,12 +25,12 @@ $viajes = $db->obtenerViajes();
 			<?php if($_SESSION['id_rol'] == 3) { ?>
 			<div class="media-right">
 				<!-- Eliminar -->
-				<a href="#!" data-id-eliminar="<?php echo $viaje["ID"]; ?>" class="btn-baja-viaje btn btn-primary tooltipped" data-placement="right" title="Eliminar">
-					<i class="material-icons">delete</i>
+				<a href="#!" data-id-eliminar="<?php echo $viaje["ID"]; ?>" class="btn-baja-viaje btn w3-black tooltipped" data-placement="right" title="Eliminar">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
 				</a>
 				<!-- Editar -->
-				<a href="#modalEditarViaje" data-id="<?php echo $viaje["ID"]; ?>" class="btn-editar-viaje-lista btn btn-primary btn-viaje-editar tooltipped" data-placement="left" title="Editar" data-toggle="modal" data-target="#modalEditarViaje">
-					<i class="material-icons">playlist_add</i>
+				<a href="#modalEditarViaje" data-id="<?php echo $viaje["ID"]; ?>" class="btn-editar-viaje-lista btn w3-margin-top w3-black btn-viaje-editar tooltipped" data-placement="left" title="Editar" data-toggle="modal" data-target="#modalEditarViaje">
+                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
 				</a>
 			</div>
 			<?php } ?>

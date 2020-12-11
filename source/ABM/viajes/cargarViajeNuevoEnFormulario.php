@@ -7,7 +7,6 @@
     $vehiculos = $db->obtenerVehiculos();
     $destinos = $db->obtenerDestinos();
     $clientes = $db->obtenerClientes();
-    $acoplados = $db->obtenerAcoplados();
     $choferes = $db->obtenerChoferes();
 ?>
 

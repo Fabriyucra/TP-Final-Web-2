@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	include_once dirname(__FILE__) . '/source/database/DBManager.php';
+	include_once dirname(__FILE__) . '/config/DBManager.php';
 
 	if (empty($_SESSION['usuario'])) {
 		header("Location: inicio.php");
@@ -22,12 +22,12 @@
 				<h2 class="text-center">Viajes</h2>
 			</div>
 			<!-- boton nuevo viaje -->
-			<?php if($_SESSION['id_rol'] == 3 and $_SESSION['id_rol'] == 1) { ?> <!-- Botón de agregar Viaje sólo habilitado para rol Supervisor -->
+			<?php if($_SESSION['id_rol'] == 3) { ?> <!-- Botón de agregar Viaje sólo habilitado para rol Supervisor -->
 				<div class="col-xs-12">
 					<p class="text-center">
-						<a href="#modalNuevoViaje" id="btn-nuevo-viaje-lista" class="btn btn-primary text-uppercase" data-toggle="modal" data-target="#modalNuevoViaje">
-							<i class="material-icons right">input</i>
-							Agregar nuevo
+						<a href="#modalNuevoViaje" id="btn-nuevo-viaje-lista" class="w3-button w3-black text-uppercase" data-toggle="modal" data-target="#modalNuevoViaje">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+							Agregar nuevo Viaje
 						</a>
 					</p>
 				</div>
@@ -53,7 +53,7 @@
 				<div class="modal-body"></div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-					<button type="button" id="btn-nuevo-viaje" class="btn btn-primary">Agregar Nuevo Viaje</button>
+					<button type="button" id="btn-nuevo-viaje" class="btn w3-black">Agregar Nuevo Viaje</button>
 				</div>
 			</div>
 		</div>
@@ -71,7 +71,7 @@
 				<div class="modal-body"></div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-					<button type="button" id="btn-editar-viaje" class="btn btn-primary">Actualizar Viaje</button>
+					<button type="button" id="btn-editar-viaje" class="btn w3-black">Actualizar Viaje</button>
 				</div>
 			</div>
 		</div>
