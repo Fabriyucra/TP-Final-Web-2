@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	include_once dirname(__FILE__) . '/source/database/DBManager.php';
+	include_once dirname(__FILE__) . '/config/DBManager.php';
 
 	if (empty($_SESSION['usuario'])) {
 		header("Location: login.php");
@@ -34,7 +34,7 @@
 			<?php } ?>
 			<!-- Fin boton nuevo empleado -->
 			<div class="col-xs-12">
-				<!-- Lista Empleados -->
+				<!-- Lista Empleados PDF-->
                 <p>
                     <i class="material-icons prefix">print</i>
                     <a class="btn-exportar-pdf link" href="#">Exportar listado a PDF</a>

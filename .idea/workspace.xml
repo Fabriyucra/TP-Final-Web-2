@@ -20,10 +20,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7e2b9da-c1d2-4e4c-9ced-8b79d8e93a49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/imagenes/mantenimientos.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/imagenes/mantenimientos.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/Vehiculos.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/Vehiculos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/empleados.php" beforeDir="false" afterPath="$PROJECT_DIR$/empleados.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/views/shared/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/views/shared/_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/PDFDatosEmpleado.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/PDFDatosEmpleado.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/baja.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/baja.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoEditarEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoEditarEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoNuevoEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoNuevoEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosLista.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosListaFiltrada.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosListaFiltrada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/datosEmpleado.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/datosEmpleado.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/editar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/nuevo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/PDFDatosVehiculo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/PDFDatosVehiculo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/baja.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/baja.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculoEditarEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculoEditarEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculoNuevoEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculoNuevoEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosLista.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosListaFiltrada.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosListaFiltrada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/datosVehiculo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/datosVehiculo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/editar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/nuevo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ConfigGlobal.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/ConfigGlobal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/database/DBManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/DBManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/models/DataBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/DataBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/salir.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/salir.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/validarLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/validarLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehiculos.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +71,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/imagenes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tp-Final-minusa" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,18 +81,29 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\web2" />
-      <recent name="C:\xampp\htdocs\web2\source\views" />
-      <recent name="C:\xampp\htdocs\web2\source\models" />
-      <recent name="C:\xampp\htdocs\web2\source\lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\TP-Final-Web-2\assets\imagenes" />
       <recent name="C:\xampp\htdocs\TP-Final-Web-2\source\ABM\vehiculos" />
       <recent name="C:\xampp\htdocs\web2" />
       <recent name="C:\xampp\htdocs\web2\assets\css" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\TpFinal-Web2\config" />
+      <recent name="C:\xampp\htdocs\TpFinal-Web2\source" />
+      <recent name="C:\xampp\htdocs\web2" />
+      <recent name="C:\xampp\htdocs\web2\source\views" />
+      <recent name="C:\xampp\htdocs\web2\source\models" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ConfigGlobal.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/config/ConfigGlobal.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.ConfigGlobal.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,6 +127,8 @@
       <workItem from="1607470258933" duration="428000" />
       <workItem from="1607480326525" duration="7445000" />
       <workItem from="1607529444313" duration="9901000" />
+      <workItem from="1607549177739" duration="41000" />
+      <workItem from="1607549232103" duration="8203000" />
     </task>
     <servers />
   </component>
@@ -117,18 +156,24 @@
       <screen x="0" y="0" width="1449" height="776" />
     </state>
     <state x="347" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1449.776@0.0.1449.776" timestamp="1605649099836" />
-    <state x="497" y="214" key="FileChooserDialogImpl" timestamp="1607529605378">
-      <screen x="0" y="0" width="1449" height="776" />
+    <state x="799" y="346" key="FileChooserDialogImpl" timestamp="1607637095463">
+      <screen x="0" y="0" width="2330" height="1253" />
     </state>
     <state x="497" y="214" key="FileChooserDialogImpl/0.0.1449.776@0.0.1449.776" timestamp="1607529605378" />
+    <state x="799" y="346" key="FileChooserDialogImpl/0.0.2330.1253@0.0.2330.1253" timestamp="1607637095463" />
     <state x="561" y="312" key="NewPhpFileDialog" timestamp="1607541290587">
       <screen x="0" y="0" width="1449" height="776" />
     </state>
     <state x="561" y="312" key="NewPhpFileDialog/0.0.1449.776@0.0.1449.776" timestamp="1607541290587" />
-    <state x="694" y="132" width="575" height="534" key="find.popup" timestamp="1607538443831">
-      <screen x="0" y="0" width="1449" height="776" />
+    <state x="1011" y="539" key="VCS.ChangelistChooser" timestamp="1607646467414">
+      <screen x="0" y="0" width="2330" height="1253" />
+    </state>
+    <state x="1011" y="539" key="VCS.ChangelistChooser/0.0.2330.1253@0.0.2330.1253" timestamp="1607646467414" />
+    <state x="1116" y="213" width="925" height="863" key="find.popup" timestamp="1607648075489">
+      <screen x="0" y="0" width="2330" height="1253" />
     </state>
     <state x="694" y="132" width="575" height="534" key="find.popup/0.0.1449.776@0.0.1449.776" timestamp="1607538443831" />
+    <state x="1116" y="213" width="925" height="863" key="find.popup/0.0.2330.1253@0.0.2330.1253" timestamp="1607648075489" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

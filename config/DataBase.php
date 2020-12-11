@@ -1,16 +1,7 @@
 <?php
-
 class DataBase
-{
-
-    CONST DB_HOST = "localhost";  //192.168.10.10
-    CONST DB_USER = "root";  // ?
-    CONST DB_PASSWORD = "";  //123
-    CONST DB_NAME = "grupo_15";
-
-    private $_db;
-
-
+    {
+        private $_db;
 
     /* SINGLETON */
     private static $instancia;
@@ -137,7 +128,8 @@ class DataBase
 
     private function _connect()
     {
-        $this->_db = mysqli_connect( self::DB_HOST, self::DB_USER, self::DB_PASSWORD, self::DB_NAME );
+        require_once("config.php");
+        $this->_db = mysqli_connect( DB_HOST, DB_USER, DB_PASSWORD, DB_NAME );
     	$this->_db->set_charset('utf8');
     }
 

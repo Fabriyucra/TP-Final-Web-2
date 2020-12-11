@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	include_once dirname(__FILE__) . '/source/database/DBManager.php';
+	include_once dirname(__FILE__) . '/config/DBManager.php';
 
 	if (empty($_SESSION['usuario'])) {
 		header("Location: login.php");
@@ -26,7 +26,7 @@
 		</div>
         <p>
             <i class="material-icons prefix">print</i>
-            <a class="btn-exportar-pdfV link" href="#">Exportar listado a PDF</a>
+            <a class="btn-exportar-pdf link" href="source/ABM/vehiculos/PDFDatosVehiculo.php">Exportar listado a PDF</a>
         </p>
 
 		<div class="row">

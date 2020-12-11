@@ -1,6 +1,6 @@
 <?php
 //use \PDO;
-include_once dirname(dirname(__FILE__)) . '/ConfigGlobal.php';
+include_once("ConfigGlobal.php");
 
 class DBManager {
 
@@ -9,7 +9,6 @@ class DBManager {
 	private $dbo;
 
 	public function __construct() {
-
 		try {
 			$this->configGlobal = new ConfigGlobal();
 			$this->globales = $this->configGlobal->ObtenerConfig();

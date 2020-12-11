@@ -54,6 +54,7 @@ var Vehiculos = function () {
         btnDatosVehiculo();
         btnVehiculoEditarLista();
         btnVehiculoEliminarLista();
+        btnExportarPDFV();
     };
 
     function ponerFocoEnVehiculoEditar() {
@@ -173,7 +174,7 @@ var Vehiculos = function () {
         });
     }
 
-    function btnExportarPDFV() {
+    function btnExportarPDFV () {
         $('.btn-exportar-pdfV').on('click', function() {
             var $self = $(this);
             var IdEmpleado = $self.data('id');

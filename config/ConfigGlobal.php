@@ -1,14 +1,15 @@
 <?php
+
 class ConfigGlobal {
 
 	public function ObtenerConfig() {
-			// Entorno Local
+            require_once("config.php");
 			$entorno =  array(
-				"db" => array(
-					"nombre"    	=> "grupo_15",
-					"usuario"   	=> "root",
-					"password"  	=> "",
-					"host"			=> "localhost"
+				    "db" => array(
+					"nombre"    	=> DB_NAME,
+					"usuario"   	=> DB_USER,
+					"password"  	=> DB_PASSWORD,
+					"host"			=> DB_HOST
 				)
 			);
 		return $entorno;
