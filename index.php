@@ -1,17 +1,17 @@
 <?php
     session_start();
     if (empty($_SESSION['logueado'])) {
-        header("Location: login.php");
+        header("Location: inicio.php");
     }
 ?>
 
 <!doctype html>
 <html lang="es">
 
-<?php require_once('source/inc/head.php'); ?>
+<?php require_once('source/link/head.php'); ?>
 
 <body>
-    <?php require_once('source/inc/ga.php'); ?>
+    <?php require_once('source/link/ga.php'); ?>
     <?php require_once('source/views/shared/_header.php'); ?>
     <div class="container">
         <!-- Contenido de pagina -->
@@ -125,7 +125,7 @@
     <br>    <br>    <br>    <br>    <br>    <br>    <br>    <br>
     <?php
         require_once('source/views/shared/_footer.php');
-        require_once('source/inc/scripts.php');
+        require_once('source/link/scripts.php');
     ?>
 </body>
 </html>

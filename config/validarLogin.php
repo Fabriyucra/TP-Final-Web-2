@@ -25,6 +25,6 @@ if(isset($usuario) && isset($password)) {
 
         header("Location: ../index.php");
     } else {
-        header('Location: ../login.php?error=true');
+        header('Location: ../inicio.php?error=true');
     }
 }

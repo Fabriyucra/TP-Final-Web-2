@@ -9,7 +9,7 @@
  //========================================================================
  */
 
-require_once('jpgraph_glayout_vh.inc.php');
+require_once('jpgraph_glayout_vh.link.php');
 
 //------------------------------------------------------------------------
 // Determine how many compass directions to show

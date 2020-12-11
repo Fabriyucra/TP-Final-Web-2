@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (empty($_SESSION['usuario'])) header("Location: login.php");
+if (empty($_SESSION['usuario'])) header("Location: inicio.php");
 require_once("../../../config/DBManager.php");
 $db = new DBManager();
 

@@ -2,7 +2,7 @@
     // Example 4 : QR Barcode with specified version and error correction level
 
     // Include the library
-    require_once ('jpgraph/QR/qrencoder.inc.php');
+    require_once ('jpgraph/QR/qrencoder.link.php');
 
     // Data to be encoded
     $data = '01234567';

@@ -3,17 +3,17 @@
     include_once dirname(__FILE__) . '/source/database/DBManager.php';
 
     if (empty($_SESSION['usuario'])) {
-        header("Location: login.php");
+        header("Location: inicio.php");
     }
 ?>
 
 <!doctype html>
 <html lang="es">
 
-<?php require_once('source/inc/head.php'); ?>
+<?php require_once('source/link/head.php'); ?>
 
 <body>
-    <?php require_once('source/inc/ga.php'); ?>
+    <?php require_once('source/link/ga.php'); ?>
     <?php require_once('source/views/shared/_header.php'); ?>
     <div class="container">
         <div class="row">
@@ -79,7 +79,7 @@
     <!-- Fin Contenido de pagina -->
     <?php
         require_once('source/views/shared/_footer.php');
-        require_once('source/inc/scripts.php');
+        require_once('source/link/scripts.php');
     ?>
 </body>
 </html>

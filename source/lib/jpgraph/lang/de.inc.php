@@ -5,7 +5,7 @@
 // Created:     2006-03-06
 // Author:      Timo Leopold (timo@leopold-hh.de)
 //              Johan Persson (ljp@localhost.nil)
-// Ver:         $Id: de.inc.php 1886 2009-10-01 23:30:16Z ljp $
+// Ver:         $Id: de.link.php 1886 2009-10-01 23:30:16Z ljp $
 //
 // Copyright (c)
 //========================================================================
@@ -23,8 +23,8 @@ HTTP header wurden bereits gesendet.<br>Fehler in der Datei <b>%s</b> in der Zei
 /*
 ** Setup Fehler
 */
-11 => array('Es wurde kein Pfad für CACHE_DIR angegeben. Bitte gib einen Pfad CACHE_DIR in der Datei jpg-config.inc an.',0),
-12 => array('Es wurde kein Pfad für TTF_DIR angegeben und der Pfad kann nicht automatisch ermittelt werden. Bitte gib den Pfad in der Datei jpg-config.inc an.',0),
+11 => array('Es wurde kein Pfad für CACHE_DIR angegeben. Bitte gib einen Pfad CACHE_DIR in der Datei jpg-config.link an.',0),
+12 => array('Es wurde kein Pfad für TTF_DIR angegeben und der Pfad kann nicht automatisch ermittelt werden. Bitte gib den Pfad in der Datei jpg-config.link an.',0),
 13 => array('The installed PHP version (%s) is not compatible with this release of the library. The library requires at least PHP version %s',2),
 
 /*

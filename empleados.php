@@ -3,17 +3,17 @@
 	include_once dirname(__FILE__) . '/config/DBManager.php';
 
 	if (empty($_SESSION['usuario'])) {
-		header("Location: login.php");
+		header("Location: inicio.php");
 	}
 ?>
 
 <!doctype html>
 <html lang="es">
 
-<?php require_once('source/inc/head.php'); ?>
+<?php require_once('source/link/head.php'); ?>
 
 <body>
-	<?php require_once('source/inc/ga.php'); ?>
+	<?php require_once('source/link/ga.php'); ?>
 	<?php require_once('source/views/shared/_header.php'); ?>
 	<div class="container">
 		<div class="row">
@@ -108,18 +108,19 @@
 			</div>
 		</div>
 	</div>
+</body>
+</html>
 	<!-- Fin Modal Cargando -->
 
 	<!-- Fin Contenido de pagina -->
-	<?php
+	 <?php
 		require_once('source/views/shared/_footer.php');
-		require_once('source/inc/scripts.php');
+		require_once('source/link/scripts.php');
 	?>
+            <script type="text/javascript">
+                var empleados = new Empleados();
+                empleados.cargarLista();
+                empleados.cargarEventoBtnFiltroEmpleado();
+            </script>
 
-	<script type="text/javascript">
-		var empleados = new Empleados();
-		empleados.cargarLista();
-		empleados.cargarEventoBtnFiltroEmpleado();
-	</script>
-</body>
-</html>
+

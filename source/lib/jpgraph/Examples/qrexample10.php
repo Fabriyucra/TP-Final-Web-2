@@ -2,7 +2,7 @@
     // Example 10 : Specified error correction level
 
     // Include the library
-    require_once ('jpgraph/QR/qrencoder.inc.php');
+    require_once ('jpgraph/QR/qrencoder.link.php');
 
     $data      = 'ABCDEFGH01234567'; // Data to be encoded
     $version   = -1;  // -1 = Let the library decide version (same as default)

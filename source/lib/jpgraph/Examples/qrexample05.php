@@ -2,7 +2,7 @@
     // Example 5 : QR Barcode with manually specified encodation
 
     // Include the library
-    require_once ('jpgraph/QR/qrencoder.inc.php');
+    require_once ('jpgraph/QR/qrencoder.link.php');
 
     // Data to be encoded
     // We want the data to be encoded using alphanumeric encoding even though

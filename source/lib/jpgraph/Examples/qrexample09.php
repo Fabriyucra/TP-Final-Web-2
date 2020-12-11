@@ -3,7 +3,7 @@
 
     // Include the library
     require_once ('jpgraph/jpgraph.php');
-    require_once ('jpgraph/QR/qrencoder.inc.php');
+    require_once ('jpgraph/QR/qrencoder.link.php');
 
     $readFromFilename = 'qr-input.txt';
 

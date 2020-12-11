@@ -1,9 +1,9 @@
 <?php
 //=======================================================================
-// File:        jpgraph_ttf.inc.php
+// File:        jpgraph_ttf.link.php
 // Description: Handling of TTF fonts
 // Created:     2006-11-19
-// Ver:         $Id: jpgraph_ttf.inc.php 1858 2009-09-28 14:39:51Z ljp $
+// Ver:         $Id: jpgraph_ttf.link.php 1858 2009-09-28 14:39:51Z ljp $
 //
 // Copyright (c) Asial Corporation. All rights reserved.
 //========================================================================

@@ -1,6 +1,6 @@
 <?php
 // Include the library
-require_once ('jpgraph/QR/qrencoder.inc.php');
+require_once ('jpgraph/QR/qrencoder.link.php');
 
 // Example 11 : Generate postscript output
 

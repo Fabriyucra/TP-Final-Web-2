@@ -1,7 +1,7 @@
 <?php // content="text/plain; charset=utf-8" 
 require_once 'jpgraph/jpgraph.php';
 require_once 'jpgraph/jpgraph_line.php';
-require_once 'jpgraph/jpgraph_plotmark.inc.php';
+require_once 'jpgraph/jpgraph_plotmark.link.php';
 require_once 'jpgraph/jpgraph_scatter.php';
 require_once 'ccbpgraph.class.php';
 

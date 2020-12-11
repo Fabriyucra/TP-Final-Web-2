@@ -5,7 +5,7 @@
 //
 require_once ('jpgraph/jpgraph.php');
 require_once ('jpgraph/jpgraph_line.php');
-require_once ('jpgraph/jpgraph_utils.inc.php');
+require_once ('jpgraph/jpgraph_utils.link.php');
 
 // 
 // Create some random data for the plot. We use the current time for the

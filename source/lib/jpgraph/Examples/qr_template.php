@@ -1,5 +1,5 @@
 <?php
-require_once ('jpgraph/QR/qrencoder.inc.php');
+require_once ('jpgraph/QR/qrencoder.link.php');
 
 // Data to be encoded
 $data         = 'ABCDEFGH01234567';

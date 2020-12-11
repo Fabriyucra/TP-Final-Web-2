@@ -5,7 +5,7 @@
 //              error messages. All localized error messages are stored
 //              in a separate file under the "lang/" subdirectory.
 // Created:     2006-09-24
-// Ver:         $Id: jpgraph_errhandler.inc.php 1920 2009-12-08 10:02:26Z ljp $
+// Ver:         $Id: jpgraph_errhandler.link.php 1920 2009-12-08 10:02:26Z ljp $
 //
 // Copyright 2006 (c) Aditus Consulting. All rights reserved.
 //========================================================================
@@ -25,14 +25,14 @@ class ErrMsgText {
     private $lt=NULL;
     function __construct() {
         GLOBAL $__jpg_err_locale;
-        $file = 'lang/'.$__jpg_err_locale.'.inc.php';
+        $file = 'lang/'.$__jpg_err_locale.'.link.php';
 
         // If the chosen locale doesn't exist try english
         if( !file_exists(dirname(__FILE__).'/'.$file) ) {
             $__jpg_err_locale = 'en';
         }
 
-        $file = 'lang/'.$__jpg_err_locale.'.inc.php';
+        $file = 'lang/'.$__jpg_err_locale.'.link.php';
         if( !file_exists(dirname(__FILE__).'/'.$file) ) {
             die('Chosen locale file ("'.$file.'") for error messages does not exist or is not readable for the PHP process. Please make sure that the file exists and that the file permissions are such that the PHP process is allowed to read this file.');
         }

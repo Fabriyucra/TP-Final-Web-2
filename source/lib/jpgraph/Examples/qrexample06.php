@@ -2,7 +2,7 @@
     // Example 6 : QR Barcode with image in JPG format
 
     // Include the library
-    require_once ('jpgraph/QR/qrencoder.inc.php');
+    require_once ('jpgraph/QR/qrencoder.link.php');
 
     $data      = 'ABCDEFGH01234567'; // Data to be encoded
     $version   = -1;  // -1 = Let the library decide version (same as default)

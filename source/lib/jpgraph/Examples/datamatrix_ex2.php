@@ -1,5 +1,5 @@
 <?php
-require_once('jpgraph/datamatrix/datamatrix.inc.php');
+require_once('jpgraph/datamatrix/datamatrix.link.php');
 
 $data = '123456';
 

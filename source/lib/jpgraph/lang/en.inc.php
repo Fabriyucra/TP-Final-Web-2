@@ -3,7 +3,7 @@
 // File:     EN.INC.PHP
 // Description: English language file for error messages
 // Created:     2006-01-25
-// Ver:        $Id: en.inc.php 1886 2009-10-01 23:30:16Z ljp $
+// Ver:        $Id: en.link.php 1886 2009-10-01 23:30:16Z ljp $
 //
 // Copyright (c) Asial Corporation. All rights reserved.
 //========================================================================
@@ -21,8 +21,8 @@ HTTP headers have already been sent.<br>Caused by output from file <b>%s</b> at 
 /*
 ** Setup errors
 */
-11 => array('No path specified for CACHE_DIR. Please specify CACHE_DIR manually in jpg-config.inc',0),
-12 => array('No path specified for TTF_DIR and path can not be determined automatically. Please specify TTF_DIR manually (in jpg-config.inc).',0),
+11 => array('No path specified for CACHE_DIR. Please specify CACHE_DIR manually in jpg-config.link',0),
+12 => array('No path specified for TTF_DIR and path can not be determined automatically. Please specify TTF_DIR manually (in jpg-config.link).',0),
 13 => array('The installed PHP version (%s) is not compatible with this release of the library. The library requires at least PHP version %s',2),
 
 
