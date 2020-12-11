@@ -1,6 +1,6 @@
 <?php
 	session_start();
-    include_once ("config/DBManager.php");
+    require_once("../../../config/DBManager.php");
     include '../../lib/phpqrcode/qrlib.php';
     if (empty($_SESSION['usuario'])) header("Location: inicio.php");
     $db = new DBManager();
