@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7e2b9da-c1d2-4e4c-9ced-8b79d8e93a49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/source/models/EmpleadoModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/DBManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/DBManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inicio.php" beforeDir="false" afterPath="$PROJECT_DIR$/inicio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/empleados.php" beforeDir="false" afterPath="$PROJECT_DIR$/empleados.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosLista.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosLista.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/link/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/link/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehiculos.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tp-Final-minusa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -103,6 +106,7 @@
       <workItem from="1607529444313" duration="9901000" />
       <workItem from="1607549177739" duration="41000" />
       <workItem from="1607549232103" duration="14029000" />
+      <workItem from="1607656534103" duration="2962000" />
     </task>
     <servers />
   </component>

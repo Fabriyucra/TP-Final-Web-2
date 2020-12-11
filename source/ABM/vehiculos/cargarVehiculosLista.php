@@ -27,12 +27,12 @@ $vehiculos = $db->obtenerVehiculos();
 			</div>
 			<?php if($_SESSION['id_rol'] == 4) { ?>
 			<div class="media-right">
-				<a href="#!" data-id-eliminar="<?php echo $vehiculo["PATENTE"]; ?>" class="w3-margin-bottom btn-baja-vehiculo btn btn-primary tooltipped" data-placement="right" title="Eliminar">
-					<i class="material-icons">delete</i>
+				<a href="#!" data-id-eliminar="<?php echo $vehiculo["PATENTE"]; ?>" class=" btn-baja-vehiculo w3-button w3-black  tooltipped" data-placement="right" title="Eliminar">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
 				</a>
 				<!-- Editar -->
-				<a href="#modalEditarVehiculo" data-id="<?php echo $vehiculo["PATENTE"]; ?>" class="btn-editar-lista btn btn-primary btn-empleado-editar tooltipped" data-placement="left" title="Editar" data-toggle="modal" data-target="#modalEditarVehiculo">
-					<i class="material-icons">playlist_add</i>
+				<a href="#modalEditarVehiculo" data-id="<?php echo $vehiculo["PATENTE"]; ?>" class="btn-editar-lista w3-margin-top w3-button w3-black  btn-empleado-editar tooltipped" data-placement="left" title="Editar" data-toggle="modal" data-target="#modalEditarVehiculo">
+                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
 				</a>
 			</div>
 			<?php } ?>
