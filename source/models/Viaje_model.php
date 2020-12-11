@@ -1,7 +1,7 @@
 <?php
 
 require_once 'ModelInterface.php';
-require_once 'DataBase.php';
+require_once ("config/DataBase.php");
 
 class Viaje_model implements ModelInterface
 {
