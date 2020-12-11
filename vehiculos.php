@@ -17,7 +17,7 @@
 	<?php require_once('source/views/shared/_header.php'); ?>
 	<div class="container">
 		<!-- Contenido de pagina -->
-		<!-- Filtro de busqueda -->
+
 		<div class="row">
 			<div class="col-xs-12">
 				<h2 class="text-center">Vehículos</h2>

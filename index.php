@@ -62,7 +62,7 @@
             <!-- Fin Tarjeta Viajes -->
 
             <!-- Tarjeta Reportes -->
-            <?php if($_SESSION['id_rol'] == 3 and $_SESSION['id_rol'] == 4) { ?>
+            <?php if($_SESSION['id_rol'] == 1 OR $_SESSION['id_rol'] == 4) { ?>
                 <div class="col-xs-12 col-sm-6 col-md-4">
                     <div class="panel panel-default">
                         <div class="panel-body">
@@ -78,7 +78,7 @@
             <!-- Fin Tarjeta Reportes -->
 
             <!-- Tarjeta Seguimiento -->
-            <?php if($_SESSION['id_rol'] != 2) { ?>
+            <?php if($_SESSION['id_rol'] != 1) { ?>
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-body">

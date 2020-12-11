@@ -25,7 +25,7 @@
 			<?php if($_SESSION['id_rol'] == 4) { ?> <!-- Botón de agregar Empleado sólo habilitado para rol Administrador -->
 				<div class="col-xs-12">
 					<p class="text-center">
-						<a href="#modalNuevoEmpleado" id="btn-nuevo-lista" class="btn btn-primary text-uppercase" data-toggle="modal" data-target="#modalNuevoEmpleado">
+						<a href="#modalNuevoEmpleado" id="btn-nuevo-lista" class="btn btn-secondary text-uppercase" data-toggle="modal" data-target="#modalNuevoEmpleado">
 							<i class="material-icons right">input</i>
 							Agregar nuevo empleado
 						</a>
@@ -77,7 +77,7 @@
 				</div>
 			</div>
 		</div>
-	</div> 
+	</div>
 	<!-- Fin Modal Ver Datos de Empleado -->
 
 	<!-- Modal Editar Empleado -->
@@ -115,7 +115,6 @@
 		require_once('source/views/shared/_footer.php');
 		require_once('source/inc/scripts.php');
 	?>
-
 	<script type="text/javascript">
 		var empleados = new Empleados();
 		empleados.cargarLista();
