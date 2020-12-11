@@ -9,12 +9,13 @@ class DBManager {
 	private $dbo;
 
 	public function __construct() {
+
 		try {
 			$this->configGlobal = new ConfigGlobal();
 			$this->globales = $this->configGlobal->ObtenerConfig();
 
 			$this->dbo = new PDO(
-				'mysql:host=' . $this->globales["db"]["host"] . ';dbname=' . $this->globales["db"]["nombre"], 
+				'mysql:host=' . $this->globales["db"]["host"] . ';dbname=' . $this->globales["db"]["nombre"],
 				$this->globales["db"]["usuario"],
 				$this->globales["db"]["password"]
 			);
@@ -63,8 +64,8 @@ class DBManager {
 		catch(PDOException $ex) {
 			print "Chan: " . $ex->getMessage();
 			die();
-		}		
-	}	
+		}
+	}
 
 	public function obtenerEmpleadosFiltrados($datoEmpleado) {
 		$query =
@@ -200,7 +201,7 @@ class DBManager {
 		}
 	}
 
-
+    /* Rol */
 
 	public function obtenerRoles() {
 		$query = 'select * from rol';

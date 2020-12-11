@@ -31,7 +31,7 @@ unset($_SESSION['logueado']);
                         <img src="assets/imagenes/avatar.jpg" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
                     </div>
                     <!--REGISTRO de usuario por rol-->
-                    <form class="w3-container" action="source/validarLogin.php" method="post"">
+                    <form class="w3-container" action="config/validarLogin.php" method="post"">
                     <div class="w3-section">
                         <label><b>Username</b></label>
                         <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usuario" required>
@@ -45,6 +45,7 @@ unset($_SESSION['logueado']);
                     <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
                         <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
                         <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+                        <span class="w3-right w3-padding w3-hide-small"><a href="source/ABM/empleados/nuevo.php">Registrarse</a></span>
                     </div>
 
                 </div>

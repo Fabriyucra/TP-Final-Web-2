@@ -20,116 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7e2b9da-c1d2-4e4c-9ced-8b79d8e93a49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/models/EmpleadoModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/salir.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/salir.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/validarLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/validarLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/empleados.php" beforeDir="false" afterPath="$PROJECT_DIR$/empleados.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/inicio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mantenimientos.php" beforeDir="false" afterPath="$PROJECT_DIR$/mantenimientos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reportes.php" beforeDir="false" afterPath="$PROJECT_DIR$/reportes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salir.php" beforeDir="false" afterPath="$PROJECT_DIR$/salir.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguimientos.php" beforeDir="false" afterPath="$PROJECT_DIR$/seguimientos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/PDFDatosEmpleado.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/PDFDatosEmpleado.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoEditarEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoEditarEnFormulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoNuevoEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoNuevoEnFormulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosLista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosListaFiltrada.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosListaFiltrada.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/datosEmpleado.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/datosEmpleado.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/editar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/nuevo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/baja.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/baja.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientoEditarEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientoEditarEnFormulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientoNuevoEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientoNuevoEnFormulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientosLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientosLista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/consultarAlarmas.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/consultarAlarmas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/datosMantenimiento.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/datosMantenimiento.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/editar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/nuevo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/PDFDatosVehiculo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/PDFDatosVehiculo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/baja.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/baja.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculoEditarEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculoEditarEnFormulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculoNuevoEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculoNuevoEnFormulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosLista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosListaFiltrada.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/cargarVehiculosListaFiltrada.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/datosVehiculo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/datosVehiculo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/editar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/vehiculos/nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/vehiculos/nuevo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/baja.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/baja.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeEditarEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeEditarEnFormulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeNuevoEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeNuevoEnFormulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/cargarViajesLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/cargarViajesLista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/datosViaje.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/datosViaje.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/editar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/nuevo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/inc/ga.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/link/ga.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/inc/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/link/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/inc/scripts.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/link/scripts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/ccbp_ex1.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/ccbp_ex1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/ccbp_ex2.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/ccbp_ex2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/colormaps.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/colormaps.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/combgraphex1.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/combgraphex1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex0.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex0.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex00.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex00.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex1.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex2.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex3.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex4.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex5.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex6.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex7.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/datamatrix_ex7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/dateutilex01.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/dateutilex01.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/dateutilex02.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/dateutilex02.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/dupyaxisex1.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/dupyaxisex1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/example16.6.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/example16.6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/funcex1.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/funcex1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/funcex2.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/funcex2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/funcex3.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/funcex3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/funcex4.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/funcex4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/manualtickex1.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/manualtickex1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/manualtickex1a.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/manualtickex1a.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/manualtickex2.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/manualtickex2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/manualtickex3.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/manualtickex3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/manualtickex4.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/manualtickex4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qr_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qr_template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample0.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample0.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample00.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample00.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample01.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample01.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample02.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample02.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample03.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample03.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample04.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample04.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample05.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample05.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample06.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample06.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample07.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample07.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample08.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample08.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample09.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample09.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample10.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample10.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample11.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample11.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample12.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/Examples/qrexample12.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/gd_image.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/gd_image.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/imgdata_balls.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/imgdata_balls.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/imgdata_bevels.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/imgdata_bevels.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/imgdata_diamonds.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/imgdata_diamonds.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/imgdata_pushpins.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/imgdata_pushpins.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/imgdata_squares.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/imgdata_squares.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/imgdata_stars.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/imgdata_stars.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/jpg-config.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/jpg-config.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_errhandler.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_errhandler.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_legend.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_legend.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_meshinterpolate.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_meshinterpolate.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_plotmark.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_plotmark.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_rgb.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_rgb.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_text.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_text.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_theme.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_theme.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_ttf.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_ttf.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_utils.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_utils.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_windrose.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/jpgraph_windrose.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/lang/de.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/lang/de.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/lang/en.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/lang/en.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/lib/jpgraph/lang/prod.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/lib/jpgraph/lang/prod.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/views/shared/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/views/shared/_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vehiculos.php" beforeDir="false" afterPath="$PROJECT_DIR$/vehiculos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viajes.php" beforeDir="false" afterPath="$PROJECT_DIR$/viajes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/DBManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/DBManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inicio.php" beforeDir="false" afterPath="$PROJECT_DIR$/inicio.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +102,7 @@
       <workItem from="1607480326525" duration="7445000" />
       <workItem from="1607529444313" duration="9901000" />
       <workItem from="1607549177739" duration="41000" />
-      <workItem from="1607549232103" duration="10718000" />
+      <workItem from="1607549232103" duration="14029000" />
     </task>
     <servers />
   </component>
@@ -241,18 +135,20 @@
     </state>
     <state x="497" y="214" key="FileChooserDialogImpl/0.0.1449.776@0.0.1449.776" timestamp="1607529605378" />
     <state x="799" y="346" key="FileChooserDialogImpl/0.0.2330.1253@0.0.2330.1253" timestamp="1607637095463" />
-    <state x="561" y="312" key="NewPhpFileDialog" timestamp="1607541290587">
-      <screen x="0" y="0" width="1449" height="776" />
+    <state x="877" y="491" key="NewPhpFileDialog" timestamp="1607652668143">
+      <screen x="0" y="0" width="2264" height="1221" />
     </state>
     <state x="561" y="312" key="NewPhpFileDialog/0.0.1449.776@0.0.1449.776" timestamp="1607541290587" />
+    <state x="877" y="491" key="NewPhpFileDialog/0.0.2264.1221@0.0.2264.1221" timestamp="1607652668143" />
     <state x="1011" y="539" key="VCS.ChangelistChooser" timestamp="1607646467414">
       <screen x="0" y="0" width="2330" height="1253" />
     </state>
     <state x="1011" y="539" key="VCS.ChangelistChooser/0.0.2330.1253@0.0.2330.1253" timestamp="1607646467414" />
-    <state x="1116" y="213" width="925" height="863" key="find.popup" timestamp="1607648075489">
-      <screen x="0" y="0" width="2330" height="1253" />
+    <state x="1026" y="205" width="851" height="830" key="find.popup" timestamp="1607655135837">
+      <screen x="0" y="0" width="2142" height="1205" />
     </state>
     <state x="694" y="132" width="575" height="534" key="find.popup/0.0.1449.776@0.0.1449.776" timestamp="1607538443831" />
+    <state x="1026" y="205" width="851" height="830" key="find.popup/0.0.2142.1205@0.0.2142.1205" timestamp="1607655135837" />
     <state x="1116" y="213" width="925" height="863" key="find.popup/0.0.2330.1253@0.0.2330.1253" timestamp="1607648075489" />
   </component>
   <component name="XDebuggerManager">
