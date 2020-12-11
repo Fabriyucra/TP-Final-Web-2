@@ -21,24 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e7e2b9da-c1d2-4e4c-9ced-8b79d8e93a49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mantenimientos.php" beforeDir="false" afterPath="$PROJECT_DIR$/mantenimientos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seguimientos.php" beforeDir="false" afterPath="$PROJECT_DIR$/seguimientos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/datosEmpleado.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/datosEmpleado.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/baja.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/baja.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientoEditarEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientoEditarEnFormulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientoNuevoEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientoNuevoEnFormulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientosLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/cargarMantenimientosLista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/consultarAlarmas.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/consultarAlarmas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/datosMantenimiento.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/datosMantenimiento.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/editar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/mantenimientos/nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/mantenimientos/nuevo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/baja.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/baja.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeEditarEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeEditarEnFormulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeNuevoEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeNuevoEnFormulario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/cargarViajesLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/cargarViajesLista.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/datosViaje.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/datosViaje.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/editar.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/editar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/nuevo.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/nuevo.php" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tp-Final-minusa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -117,7 +100,7 @@
       <workItem from="1607480326525" duration="7445000" />
       <workItem from="1607529444313" duration="9901000" />
       <workItem from="1607549177739" duration="41000" />
-      <workItem from="1607549232103" duration="14919000" />
+
     </task>
     <servers />
   </component>

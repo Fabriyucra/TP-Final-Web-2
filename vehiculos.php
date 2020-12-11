@@ -17,11 +17,10 @@
 	<?php require_once('source/views/shared/_header.php'); ?>
 	<div class="container">
 		<!-- Contenido de pagina -->
-		<!-- Filtro de busqueda -->
+
 		<div class="row">
 			<div class="col-xs-12">
 				<h2 class="text-center">Vehículos</h2>
-
 			</div>
 		</div>
         <p>
@@ -34,8 +33,8 @@
 			<?php if($_SESSION['id_rol'] == 3  OR $_SESSION['id_rol'] == 4)  { ?> <!-- Botón de agregar Empleado sólo habilitado para rol Supervisor -->
 				<div class="col-xs-12">
 					<p class="text-center">
-						<a href="#modalNuevoVehiculo" id="btn-nuevo-lista" class="btn btn-primary text-uppercase" data-toggle="modal" data-target="#modalNuevoVehiculo">
-							<i class="material-icons right">input</i>
+						<a href="#modalNuevoVehiculo" id="btn-nuevo-lista" class="w3-button w3-black text-uppercase" data-toggle="modal" data-target="#modalNuevoVehiculo">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
 							Agregar nuevo
 						</a>
 					</p>
@@ -60,7 +59,7 @@
 				<div class="modal-body"></div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-					<button type="button" id="btn-nuevo-vehiculo" class="btn btn-primary">Agregar Nuevo Vehiculo</button>
+					<button type="button" id="btn-nuevo-vehiculo" class="w3-button w3-black ">Agregar Nuevo Vehiculo</button>
 				</div>
 			</div>
 		</div>
