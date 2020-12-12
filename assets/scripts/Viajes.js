@@ -36,6 +36,9 @@ var Viajes = function() {
         btnDatosViaje();
         btnViajeEditarLista();
         btnViajeEliminarLista();
+        btnProformaNuevoLista();
+
+
     };
 
     function btnViajeNuevoLista() {
@@ -191,5 +194,54 @@ var Viajes = function() {
         }).done(function(){
         	cargarViajesLista(); // Se vuelve a cargar la lista luego de confirmar borrar usuario
         });
-    }             
-};
+    }
+
+/*Proforma*/
+function btnProformaNuevoLista() {
+    // Se carga evento boton editar de lista
+    $('#btn-nuevo-proforma-lista').on('click', function() {
+        $.ajax({
+            url: 'source/ABM/viajes/cargarProformaNuevoEnFormulario.php',
+            method: 'post',
+            dataType: 'html',
+            success: function(data){
+                $('#modalNuevoProforma .modal-body').html(data);
+            }
+        }).done(function(){
+
+            btnProformaNuevo();
+        });
+    });
+}
+
+function btnProformaNuevo() {
+    $('#btn-nuevo-proforma').on('click', function() {
+
+        var formData = $('#formNuevoProforma').serialize();// codifica un conjunto de elementos de formulario como una cadena para enviar.
+
+        // TODO: validaciones del form con Validate.js
+        $.ajax({
+            url: 'source/ABM/viajes/nuevoProforma.php',
+            method: 'POST',
+            data: formData,
+            success: function(data){
+                swal({
+                    title: 'Viaje de alta con éxito',
+                    type: 'success'
+                }, function(){
+                    $('#modalNuevoProforma').modal('hide');
+                });
+            },
+            error: function() {
+                swal({
+                    title: 'Ocurrió un error al dar alta viaje',
+                    type: 'error'
+                });
+            }
+        }).done(function(){
+            cargarViajesLista();
+        });
+    });
+}
+
+};/*fin JS*/

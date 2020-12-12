@@ -443,10 +443,38 @@ class DBManager {
 			print "Chan: " . $ex->getMessage();
 			die();
 		}		
-	}		
+	}
+	/* Proforma*/
+    public function altaProforma($datos) {
+        $query = "
+			insert into viaje (PATENTE_VEHICULO, ID_EMPLEADO, ID_DESTINO, ID_CLIENTE, FECHA_PROGRAMADA,
+				FECHA_INICIO, FECHA_FIN, CANT_KILOMETROS)
+			values (:dominio_vehiculo, :id_empleado, :id_destino, :id_cliente, :fecha_programada, :fecha_inicio,
+				:fecha_fin, :cant_kilometros, :id_tipo_acoplado)
+		";
+        try {
+            $stmt = $this->dbo->prepare($query);
+            $stmt->bindParam(':patente_vehiculo', $datos["PATENTE_VEHICULO"], PDO::PARAM_STR);
+            $stmt->bindParam(':id_empleado', $datos["ID_EMPLEADO"], PDO::PARAM_INT);
+            $stmt->bindParam(':id_destino', $datos["ID_DESTINO"], PDO::PARAM_INT);
+            $stmt->bindParam(':id_cliente', $datos["ID_CLIENTE"], PDO::PARAM_INT);
+            $stmt->bindParam(':fecha_programada', $datos["FECHA_PROGRAMADA"], PDO::PARAM_STR);
+            $stmt->bindParam(':fecha_inicio', $datos["FECHA_INICIO"], PDO::PARAM_STR);
+            $stmt->bindParam(':fecha_fin', $datos["FECHA_FIN"], PDO::PARAM_STR);
+            $stmt->bindParam(':cant_kilometros', $datos["CANT_KILOMETROS"], PDO::PARAM_INT);
+
+            //$stmt->bindParam(':activo', $datos["ACTIVO"], PDO::PARAM_INT);
+
+            $stmt->execute();
+        }
+        catch(PDOException $ex) {
+            print "Chan: " . $ex->getMessage();
+            die();
+        }
+    }
 
 
-	/* Vehículos */
+    /* Vehículos */
 
 	public function obtenerVehiculos() {
 		$query =

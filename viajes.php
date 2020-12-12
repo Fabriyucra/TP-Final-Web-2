@@ -38,9 +38,9 @@
             <?php if($_SESSION['id_rol'] == 3) { ?> <!-- Botón de agregar Viaje sólo habilitado para rol Supervisor -->
                 <div class="col-xs-12">
                     <p class="text-center">
-                        <a href="#modalNuevoProforma" id="btn-nuevo-viaje-lista" class="w3-button w3-black text-uppercase" data-toggle="modal" data-target="#modalNuevoProforma">
+                 <a href="#modalNuevoProforma" id="btn-nuevo-proforma-lista" class="w3-button w3-black text-uppercase" data-toggle="modal" data-target="#modalNuevoProforma">
                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
-                            Agregar Proforma
+                            Crear Proforma
                         </a>
                     </p>
                 </div>
@@ -74,17 +74,17 @@
 	<!-- Fin Modal Nuevo Viaje -->
 
  <!-- Modal Nuevo Proforma -->
-    <div class="modal fade" id="modalNuevoProforma" tabindex="-1" role="dialog" aria-labelledby="modalNuevoViajeLabel">
+    <div class="modal fade" id="modalNuevoProforma" tabindex="-1" role="dialog" aria-labelledby="modalNuevoProformaLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="modalNuevoViajeLabel">Agregar nuevo viaje</h4>
+                    <h4 class="modal-title" id="modalNuevoProformaLabel">Crear Nueva Proforma</h4>
                 </div>
                 <div class="modal-body"></div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                    <button type="button" id="btn-nuevo-viaje" class="btn w3-black">Agregar Nuevo Proforma</button>
+                    <button type="button" id="btn-nuevo-proforma" class="btn w3-black">Agregar Nuevo Proforma</button>
                 </div>
             </div>
         </div>
