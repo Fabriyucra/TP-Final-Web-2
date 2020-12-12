@@ -94,7 +94,7 @@
 				<div class="modal-body"></div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-					<button type="button"id="btn-editar-empleado" class="btn btn-primary">Actualizar Empleado</button>
+					<button type="button"id="btn-editar-empleado" class="btn w3-black">Actualizar Empleado</button>
 				</div>
 			</div>
 		</div>

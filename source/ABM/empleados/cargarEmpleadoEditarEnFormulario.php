@@ -7,8 +7,7 @@
 
     $idUsuario = $_POST["id"];
 
-    $empleado = $db->ObtenerEmpleadoPorId($idUsuario); 
-    $cargos = $db->obtenerCargos();
+    $empleado = $db->ObtenerEmpleadoPorId($idUsuario);
     $roles = $db->obtenerRoles();
 ?>
 
@@ -56,6 +55,7 @@
             <input placeholder="Fecha de ingreso" type="date" name="FECHA_INGRESO" value="<?php echo $empleado["FECHA_INGRESO"];?>" class="form-control">
         </div>
     </div>
+    <br>
     <div class="row">
 
         <div class="col-xs-12">
@@ -77,6 +77,7 @@
             </select>
         </div>
     </div>
+    <br>
     <div class="row">
         <div class="col-xs-12 col-sm-6">
             <label for="USUARIO">Usuario</label>
