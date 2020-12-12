@@ -21,9 +21,20 @@
   <component name="ChangeListManager">
     <list default="true" id="e7e2b9da-c1d2-4e4c-9ced-8b79d8e93a49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/models/Vehiculo_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/models/Vehiculo_model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/models/Viaje_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/models/Viaje_model.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/empleados.php" beforeDir="false" afterPath="$PROJECT_DIR$/empleados.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoEditarEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadoEditarEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosLista.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/empleados/cargarEmpleadosListaFiltrada.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeNuevoEnFormulario.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/cargarViajeNuevoEnFormulario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/ABM/viajes/cargarViajesLista.php" beforeDir="false" afterPath="$PROJECT_DIR$/source/ABM/viajes/cargarViajesLista.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viajes.php" beforeDir="false" afterPath="$PROJECT_DIR$/viajes.php" afterDir="false" />
+>>>>>>> 04b3783... acomodar tarjetas
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +113,10 @@
       <workItem from="1607480326525" duration="7445000" />
       <workItem from="1607529444313" duration="9901000" />
       <workItem from="1607549177739" duration="41000" />
+<<<<<<< HEAD
       <workItem from="1607701147035" duration="674000" />
+=======
+>>>>>>> 04b3783... acomodar tarjetas
     </task>
     <servers />
   </component>
