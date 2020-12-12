@@ -58,7 +58,7 @@ var Viajes = function() {
     function btnViajeNuevo() {
         $('#btn-nuevo-viaje').on('click', function() {
 
-            var formData = $('#formNuevoViaje').serialize();
+            var formData = $('#formNuevoViaje').serialize();// codifica un conjunto de elementos de formulario como una cadena para enviar.
             
             // TODO: validaciones del form con Validate.js
             $.ajax({

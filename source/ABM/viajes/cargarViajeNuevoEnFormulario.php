@@ -24,6 +24,7 @@
             </select>
         </div>
     </div>
+    <br>
     <div class="row">
         <div class="col-xs-12">
             <select name="ID_EMPLEADO" class="form-control" required>
@@ -35,7 +36,8 @@
                 <?php endforeach; ?>
             </select>
         </div>        
-    </div>    
+    </div>
+    <br>
     <div class="row">
         <div class="col-xs-12">
             <select name="ID_DESTINO" class="form-control" required>
@@ -48,6 +50,7 @@
             </select>
         </div>
     </div>
+    <br>
     <div class="row">
         <div class="col-xs-12">
             <select name="ID_CLIENTE" class="form-control" required>
@@ -60,6 +63,7 @@
             </select>
         </div>
     </div>
+    <br>
     <div class="row">
         <div class="col-xs-12">
             <p class="text-center">Ingrese Fecha Programada</p>
@@ -78,6 +82,7 @@
             <input type="date" name="FECHA_FIN" class="form-control">
         </div>
     </div>
+    <br>
     <div class="row">
         <div class="col-xs-12 col-sm-6">
 			<label for="CANT_KILOMETROS" class="sr-only">Cantidad de Kilometros</label>
